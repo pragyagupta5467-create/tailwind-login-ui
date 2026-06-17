@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 flex justify-center items-center min-h-screen">
+
+    <div class="bg-gray-800 w-full max-w-md p-8 rounded-2xl shadow-2xl">
+
+        <h2 class="text-4xl font-bold text-center text-purple-400 mb-8">
+            Welcome Back
+        </h2>
+
+        <form>
+
+            <!-- Email -->
+            <div class="mb-5">
+                <label class="block text-purple-300 text-sm font-medium mb-2">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full px-4 py-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                >
+            </div>
+
+            <!-- Password -->
+            <div class="mb-5">
+                <label class="block text-purple-300 text-sm font-medium mb-2">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    placeholder="Enter your password"
+                    class="w-full px-4 py-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                >
+            </div>
+
+            <!-- Remember Me -->
+            <div class="flex justify-between items-center mb-6">
+                <label class="flex items-center text-gray-300 text-sm">
+                    <input type="checkbox" class="mr-2">
+                    Remember me
+                </label>
+
+                <a href="#" class="text-purple-400 hover:text-purple-300 text-sm">
+                    Forgot Password?
+                </a>
+            </div>
+
+            <!-- Login Button -->
+            <button
+                type="submit"
+                class="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg font-semibold transition duration-300"
+            >
+                Login
+            </button>
+
+            <!-- Signup -->
+            <p class="text-center text-gray-400 mt-6">
+                Don't have an account?
+                <a href="#" class="text-purple-400 hover:text-purple-300">
+                    Sign Up
+                </a>
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
